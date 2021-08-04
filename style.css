@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    background: linear-gradient(#ff0000, #9c16f0, #00fffb, #3cff00,#fff200 ,#ff1100);
+}
+
+#character {
+    width: 150px
+}
+
+#title {
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.info {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.menu {
+    list-style: none;
+    font-family: gabriola;
+    position: fixed;
+    top: 10px;
+    right: 50px;
+    z-index: 10;
+    cursor: pointer;
+    color: crimson;
+}
+
+.links {
+    float: left;
+    color: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Comic Sans Ms;
+}
+
+.links:hover {
+    background: linear-gradient(#00ffd5 0%, #c300ff 100%);
+}
+
+#imga {
+    width: 300px;
+}
